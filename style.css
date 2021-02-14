@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    background:#3F5D9A;
+    height: 50px;
+    padding: 20px 50px;
+}
+
+.section1.logo{
+    width: 50%;
+    float: left;
+}
+.logo h1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    margin-left: 250px;
+}
+.loginButton{
+    width: 30%;
+    float: right;
+    margin-top: -30px;
+
+}
+.loginButton a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(54, 54, 252);
+    padding: 4px 5px;
+    background-color:#517dd4;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.loginButton a:hover{
+    background-color: #365899;
+}
+/* End1 */
+.section2{
+    background-color: #EBEDF0;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.content{
+    width: 450px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+.content h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+/* Form */
+
+.fastName{
+    width: 45%;
+    float: left;
+}
+.lastName{
+    width: 45%;
+    float: right;
+}
+.box{
+    width: 96%;
+    margin-top: 5px;
+}
+
+.allDate{
+    display: flex;
+}
+
+/* End of Form Basic */
+
+input{
+    padding: 12px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 1px solid #bdb9b9;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #9d9d9d;
+}
+
+.space{
+    margin-bottom: 25px;
+}
+
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.left{
+    margin-left: 2px;
+}
+
+p{
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+.radio{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.genderName{
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.submit{
+    width: 200px;
+    background: linear-gradient(#76B861,#5A8D46);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 7px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background: linear-gradient(#96da82,#5A8D46);
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    padding: 96px 25px;
+}
+.firstMenu{
+margin: 0 auto;
+width: 60%;
+border-bottom: 2px solid grey;
+}
+
+.firstMenu ul{
+
+}
+.firstMenu ul li{
+display: inline-block;
+padding: 10px 0px;
+}
+.firstMenu ul li a{
+text-decoration: none;
+padding: 10px 15px;
+}
+.active{
+color: grey;
+}
+
+.secondMenu{
+width: 60%;
+margin: 0 auto;
+padding: 13px 0px;
+}
+.secondMenu ul{
+
+}
+.secondMenu ul li{
+display: inline-block;
+}
+.secondMenu ul li a{
+text-decoration: none;
+padding: 1px 5px;
+font-size: 13px;
+color: #3B5998;
+}
+.secondMenu a:hover{
+    border-bottom: 1px solid grey;
+}
+.copyright{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.copyright p{
+    color: grey;
+    margin-top: 0px;
+}
